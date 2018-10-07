@@ -15,10 +15,18 @@
   <h5>Heading Five</h5>
   <h6>Heading Six</h6>
 
+  <br>
+  <hr>
+  <br>
+
   <!-- Paragraph -->
   <p>Lorem ipsum dolor sit amet, consectetur <a href="http://google.com" target="_blank">Click here</a> adipisicing elit. <strong>Corrupti,</strong> quasi dolores voluptates ipsum nulla. Mollitia, debitis, voluptatem. Eaque illo, quasi labore doloribus magni veritatis similique nobis distinctio nulla impedit ipsa.</p>
 
   <p>Lorem ipsum dolor sit amet, <em>consectetur adipisicing</em> elit. Corrupti, quasi dolores voluptates ipsum nulla. Mollitia, debitis, voluptatem. Eaque illo, quasi labore doloribus magni veritatis similique nobis <em>distinctio</em> nulla impedit ipsa!</p>
+
+  <br>
+  <hr>
+  <br>
 
   <!-- Lists -->
   <ul>
@@ -33,6 +41,10 @@
     <li>List Item 2</li>
     <li>List Item 3</li>
   </ol>
+
+  <br>
+  <hr>
+  <br>
 
   <!-- Tables -->
   <table>
@@ -61,6 +73,54 @@
       </tr>
     </tbody>
   </table>
+
+  <br>
+  <hr>
+  <br>
+
+  <!-- Forms -->
+  <form action="process.php" method="post">
+    <div>
+      <label for="">First Name</label>
+      <input type="text" name="firstName" value="Enter First Name">
+    </div>
+    <br>
+    <div>
+      <label for="">Last Name</label>
+      <input type="text" name="lastName">
+    </div>
+    <br>
+    <div>
+      <label for="">Email</label>
+      <input type="email" name="email">
+    </div>
+    <br>
+    <div>
+      <label for="">Message</label>
+      <textarea name="message" rows="8" cols="80"></textarea>
+    </div>
+    <br>
+    <div>
+      <label for="">Gender</label>
+      <select class="" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <label for="">Age:</label>
+      <input type="number" name="age">
+    </div>
+    <br>
+    <div class="">
+      <label>Birthday:</label>
+      <input type="date" name="birthday" id="">
+    </div>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
 
 </body>
 </html>
